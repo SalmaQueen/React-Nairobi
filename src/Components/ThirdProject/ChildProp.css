@@ -1,0 +1,17 @@
+.card{
+    background-color: #be7777;
+    color:white;
+    width: 50%;
+    border-radius: 30px;
+    box-shadow: 4px  rgba(0,0,0,0.5);
+    text-align: center;
+    margin-top: 2rem;
+   
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
