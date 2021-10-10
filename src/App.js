@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import Index from './Components/Index';
+import Props from './Components/Parent';
+import Parent from './Components/Parent';
+import Child from './Components/Child';
+import AvailableMeals from './Components/AvailableMeals';
+// import GameMgr from './SecondProject/ReactState/ GameMgr';
+// import Zombie from './SecondProject/ReactState/Zombie';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+   {/* <Index/> */}
+   <Parent/>
+   {/* <Child/> */}
+   {/* <AvailableMeals/> */}
+   
     </div>
   );
 }
